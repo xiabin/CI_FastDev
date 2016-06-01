@@ -1,0 +1,28 @@
+{
+  "name": "xiabin/ci_scaffolding",
+  "description": "The Scaffolding base on codeigniter",
+  "keywords": [
+    "webpack",
+    "phing",
+    "scaffolading",
+    "codeigniter"
+  ],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "xiabin",
+      "email": "xiabin19891230@gmail.com",
+      "homepage": "http://www.xiabin.me"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
