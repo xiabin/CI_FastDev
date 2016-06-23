@@ -23,16 +23,16 @@ Scaffolding在开发中共有三个分支,分别为:
 ## 项目结构
 该项目是基于[CodeIgniter](http://codeigniter.org.cn/)
 CI_Scaffolding
-├──application <- 框架自带目录 内部结构不在复述
-├──static <- 存放静态文件 由于基于webpack+vue 后面会详细介绍下
-├──system <- 框架自带目录
-├──.htaccess
-├──build.properties <- 自动化构建的配置 jenkins平台 尚未集成
-├──build_win.properties <- 自动化构建的配置 windows平台 一般指windows 开发环境 尚未集成
-├──build.xml <- 基于phing的自动化构建脚本 尚未集成
-├──CI_phpstrom.php <- phpstorm下面的CI框架代码提示
-├──index.php <- 框架自带
-└──php.properties <- 自动话脚本使用的php环境配置 尚未集成
+├──application <- 框架自带目录 内部结构不在复述  
+├──static <- 存放静态文件 由于基于webpack+vue 后面会详细介绍下  
+├──system <- 框架自带目录  
+├──.htaccess  
+├──build.properties <- 自动化构建的配置 jenkins平台 尚未集成  
+├──build_win.properties <- 自动化构建的配置 windows平台 一般指windows 开发环境 尚未集成  
+├──build.xml <- 基于phing的自动化构建脚本 尚未集成  
+├──CI_phpstrom.php <- phpstorm下面的CI框架代码提示  
+├──index.php <- 框架自带  
+└──php.properties <- 自动化脚本使用的php环境配置 尚未集成  
 
 ## 前端部分
 #### 目录结构
