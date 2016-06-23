@@ -36,19 +36,19 @@ CI_Scaffolding
 
 ## 前端部分
 #### 目录结构
-static
-├──assets <- 此目录由webpack 自动生成
-├──css <- 存放css
-├──img <- 存放图片
-├──js
-│  ├──class <- 存放公共的类
-│  ├──components <- 存放vue 组件
-│  ├──lib <- 所依赖的第三方库
-│  ├──helper <-工具js文件
-│  ├──fliters <- vue 过滤器
-│  └──其它 <- 各个模块对于的js文件
-├──package.json <- node配置
-└──webpack.config.js <- webpack 配置
+static  
+├──assets <- 此目录由webpack 自动生成  
+├──css <- 存放css  
+├──img <- 存放图片  
+├──js  
+│  ├──class <- 存放公共的类  
+│  ├──components <- 存放vue 组件  
+│  ├──lib <- 所依赖的第三方库  
+│  ├──helper <-工具js文件  
+│  ├──fliters <- vue 过滤器  
+│  └──其它 <- 各个模块对于的js文件  
+├──package.json <- node配置  
+└──webpack.config.js <- webpack 配置  
 
 #### 前端build 代码尚未集成
 前提你已经安装了[node.js](https://nodejs.org/en/)
