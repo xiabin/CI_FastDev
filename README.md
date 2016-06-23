@@ -22,6 +22,7 @@ Scaffolding在开发中共有三个分支,分别为:
 
 ## 项目结构
 该项目是基于[CodeIgniter](http://codeigniter.org.cn/)
+~~~
 CI_Scaffolding
 ├──application <- 框架自带目录 内部结构不在复述  
 ├──static <- 存放静态文件 由于基于webpack+vue 后面会详细介绍下  
@@ -33,9 +34,10 @@ CI_Scaffolding
 ├──CI_phpstrom.php <- phpstorm下面的CI框架代码提示  
 ├──index.php <- 框架自带  
 └──php.properties <- 自动化脚本使用的php环境配置 尚未集成  
-
+~~~
 ## 前端部分
 #### 目录结构
+~~~
 static  
 ├──assets <- 此目录由webpack 自动生成  
 ├──css <- 存放css  
@@ -49,6 +51,8 @@ static
 │  └──其它 <- 各个模块对于的js文件  
 ├──package.json <- node配置  
 └──webpack.config.js <- webpack 配置  
+~~~
+
 
 #### 前端build 代码尚未集成
 前提你已经安装了[node.js](https://nodejs.org/en/)
