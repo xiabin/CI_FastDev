@@ -24,5 +24,8 @@
       "type": "composer",
       "url": "https://packagist.phpcomposer.com"
     }
+  },
+  "require-dev": {
+    "kenjis/ci-phpunit-test": "^0.12.1"
   }
 }

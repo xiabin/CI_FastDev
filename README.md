@@ -24,33 +24,69 @@ Scaffolding在开发中共有三个分支,分别为:
 该项目是基于[CodeIgniter](http://codeigniter.org.cn/)
 ~~~
 CI_Scaffolding
-├──application <- 框架自带目录 内部结构不在复述  
-├──static <- 存放静态文件 由于基于webpack+vue 后面会详细介绍下  
-├──system <- 框架自带目录  
+├──application ... 框架自带目录 内部结构不在复述  
+├──static ... 存放静态文件 由于基于webpack+vue 后面会详细介绍下  
+├──system ... 框架自带目录  
 ├──.htaccess  
-├──build.properties <- 自动化构建的配置 jenkins平台 尚未集成  
-├──build_win.properties <- 自动化构建的配置 windows平台 一般指windows 开发环境 尚未集成  
-├──build.xml <- 基于phing的自动化构建脚本 尚未集成  
-├──CI_phpstrom.php <- phpstorm下面的CI框架代码提示  
-├──index.php <- 框架自带  
-└──php.properties <- 自动化脚本使用的php环境配置 尚未集成  
+├──build.properties ... 自动化构建的配置 jenkins平台 尚未集成  
+├──build_win.properties ... 自动化构建的配置 windows平台 一般指windows 开发环境 尚未集成  
+├──build.xml ... 基于phing的自动化构建脚本 尚未集成  
+├──CI_phpstrom.php ... phpstorm下面的CI框架代码提示  
+├──index.php ... 框架自带  
+└──php.properties ... 自动化脚本使用的php环境配置 尚未集成  
 ~~~
+
+## 单元测试
+#### 目录结构
+~~~
+application
+└──tests
+   ├── _ci_phpunit_test ... 核心模块 请勿修改
+   ├── Bootstrap.php ... phpunit的引导程序
+   ├── TestCase.php ... TestCase 类
+   ├── controllers ... controllers 测试
+   ├── libraries ... libraries 测试
+   ├── mocks/
+   │   └── libraries/    ... mock 类库
+   ├── models/           ...  model 测试
+   └── phpunit.xml       ...  PHPUnit 默认配置文件
+~~~
+
+#### 执行测试
+~~~
+$ cd /path/to/CI_Scaffolding/
+$ cd application/tests/
+$ phpunit
+PHPUnit 5.4.6 by Sebastian Bergmann and contributors.
+
+...
+
+Time: 341 ms, Memory: 5.50Mb
+
+OK (3 tests, 3 assertions)
+
+Generating code coverage report in Clover XML format ... done
+
+Generating code coverage report in HTML format ... done
+
+~~~
+
 ## 前端部分
 #### 目录结构
 ~~~
 static  
-├──assets <- 此目录由webpack 自动生成  
-├──css <- 存放css  
-├──img <- 存放图片  
+├──assets ... 此目录由webpack 自动生成  
+├──css ... 存放css  
+├──img ... 存放图片  
 ├──js  
-│  ├──class <- 存放公共的类  
-│  ├──components <- 存放vue 组件  
-│  ├──lib <- 所依赖的第三方库  
-│  ├──helper <-工具js文件  
-│  ├──fliters <- vue 过滤器  
-│  └──其它 <- 各个模块对于的js文件  
-├──package.json <- node配置  
-└──webpack.config.js <- webpack 配置  
+│  ├──class ... 存放公共的类  
+│  ├──components ... 存放vue 组件  
+│  ├──lib ... 所依赖的第三方库  
+│  ├──helper ...工具js文件  
+│  ├──fliters ... vue 过滤器  
+│  └──其它 ... 各个模块对于的js文件  
+├──package.json ... node配置  
+└──webpack.config.js ... webpack 配置  
 ~~~
 
 

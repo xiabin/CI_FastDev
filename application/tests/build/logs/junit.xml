@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CodeIgniter Application Test Suite" tests="3" assertions="3" failures="1" errors="0" time="0.126348">
+    <testsuite name="Welcome_test" file="/Users/xiabin/project/CI_Scaffolding/application/tests/controllers/Welcome_test.php" tests="3" assertions="3" failures="1" errors="0" time="0.126348">
+      <testcase name="test_index" class="Welcome_test" file="/Users/xiabin/project/CI_Scaffolding/application/tests/controllers/Welcome_test.php" line="13" assertions="1" time="0.061036">
+        <failure type="PHPUnit_Framework_ExpectationFailedException">Welcome_test::test_index
+Failed asserting that '&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;login&lt;/title&gt;
+    &lt;script type="text/javascript" src="http://localhost/CI_Scaffolding/static/assets/common/common.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h&gt;Login page&lt;/h&gt;
+&lt;script type="text/javascript" src="http://localhost/CI_Scaffolding/static/assets/index.js"&gt;&lt;/script&gt;
+&lt;input type="button" value="login click!" id="login"&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+' contains "&lt;title&gt;Welcome to CodeIgniter&lt;/title&gt;".
+
+/Users/xiabin/project/CI_Scaffolding/application/tests/controllers/Welcome_test.php:16
+</failure>
+      </testcase>
+      <testcase name="test_method_404" class="Welcome_test" file="/Users/xiabin/project/CI_Scaffolding/application/tests/controllers/Welcome_test.php" line="19" assertions="1" time="0.054288"/>
+      <testcase name="test_APPPATH" class="Welcome_test" file="/Users/xiabin/project/CI_Scaffolding/application/tests/controllers/Welcome_test.php" line="25" assertions="1" time="0.011024"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
