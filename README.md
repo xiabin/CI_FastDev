@@ -32,7 +32,9 @@ CI_FastDev
 ├──build_win.properties ... 自动化构建的配置 windows平台 一般指windows 开发环境 尚未集成  
 ├──build.xml ... 基于phing的自动化构建脚本 尚未集成  
 ├──CI_phpstrom.php ... phpstorm下面的CI框架代码提示  
-├──index.php ... 框架自带  
+├──index.php ... 框架自带
+├──index-test.php ... 测试环境
+├──index-production.php ... 生产环境
 └──php.properties ... 自动化脚本使用的php环境配置 尚未集成  
 ~~~
 
@@ -145,6 +147,12 @@ npm run pro
     * 单元测试
     * 代码check
     * 一些列代码静态检查
+
+## 参考文献:
+* [Vue.js](http://cn.vuejs.org/)
+* [Webpack](http://webpack.github.io/)
+* [ci-phpunit-test for CodeIgniter 3.0](https://github.com/kenjis/ci-phpunit-test)
+
 
 尚未完成
 
