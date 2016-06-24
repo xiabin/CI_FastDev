@@ -1,4 +1,4 @@
-# CI_Scaffolding
+# CI_FastDev
 
 
 ## 概要
@@ -9,7 +9,7 @@
 3. 自动部署
 4. 前后端分离开发
 
-Scaffolding在开发中共有三个分支,分别为:
+CI_FastDev在开发中共有三个分支,分别为:
 
    * dev:开发版本
    * test:测试版本
@@ -23,7 +23,7 @@ Scaffolding在开发中共有三个分支,分别为:
 ## 项目结构
 该项目是基于[CodeIgniter](http://codeigniter.org.cn/)
 ~~~
-CI_Scaffolding
+CI_FastDev
 ├──application ... 框架自带目录 内部结构不在复述  
 ├──static ... 存放静态文件 由于基于webpack+vue 后面会详细介绍下  
 ├──system ... 框架自带目录  
@@ -54,7 +54,7 @@ application
 
 #### 执行测试
 ~~~
-$ cd /path/to/CI_Scaffolding/
+$ cd /path/to/CI_FastDev/
 $ cd application/tests/
 $ phpunit
 PHPUnit 5.4.6 by Sebastian Bergmann and contributors.
