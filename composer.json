@@ -1,6 +1,6 @@
 {
-  "name": "xiabin/ci_scaffolding",
-  "description": "The Scaffolding base on codeigniter",
+  "name": "xiabin/ci_fastdev",
+  "description": "FastDev base on codeigniter",
   "keywords": [
     "webpack",
     "phing",
