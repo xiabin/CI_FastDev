@@ -148,6 +148,15 @@ npm run pro
     * 代码check
     * 一些列代码静态检查
 
+## 注意事项
+
+application/config/development/config.php 文件里面的base_url一定要重新配置
+默认:
+```php
+$config['base_url'] = 'http://localhost/CI_FastDev';
+
+```
+
 ## 参考文献:
 * [Vue.js](http://cn.vuejs.org/)
 * [Webpack](http://webpack.github.io/)
