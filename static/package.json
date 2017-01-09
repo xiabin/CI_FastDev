@@ -1,7 +1,7 @@
 {
-  "name": "CI_Scaffolding",
+  "name": "CI_FastDev",
   "version": "1.0.0",
-  "description": "CI_Scaffolding",
+  "description": "CI_FastDev",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --watch --progress --display-error-detail",
@@ -39,7 +39,7 @@
     "webpack-require-http": "^0.1.0"
   },
   "dependencies": {
-    "vue": "^1.0.8",
+    "vue": "^2.0.8",
     "moment": "^2.13.0"
   }
 }
